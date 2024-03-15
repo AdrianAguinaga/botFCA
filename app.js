@@ -71,12 +71,10 @@ const flowSecundarioActividades = addKeyword(['actividades'])
         "CUAL: https://ciad.mxl.uabc.mx/cual/",
         "Facebook: https://www.facebook.com/fcatijuana/",
         "Ayudantías: https://sifpvu.uabc.mx",
-        "Cultura y Deporte: https://sifpvu.uabc.mx/security/logout",
+        "Cultura y Deporte: https://sifpvu.uabc.mx",
         "UABC 8 = 1: http://proyectosfcqi.tij.uabc.mx/eventos/login2.php",        
     ]);
 
-
-    
 
 // Flujos específicos sin 'flowVolver' directo, pero con instrucciones para volver
 const flowCreditosOptativos = addKeyword(['creditos'])
@@ -86,7 +84,7 @@ const flowCreditosOptativos = addKeyword(['creditos'])
             '👉 *actividades* ¿Dónde puedo ver las actividades que puedo hacer para conseguir créditos optativos?',
             '👉 *materias* ¿Cómo pueden darse de alta materias optativas?',
             '👉 *8* ¿Como funcionan? 8 = 1',
-            '👉 *cuantos* ¿Cuantos creditos optativos ocupamos y si ya los tenemos, que pasa?',
+            '👉 *cuantos* ¿Cuantos creditos optativos ocupamos?',
             '👉 *maneras* ¿Que maneras hay de liberar creditos optativos?',
         ]
     )
