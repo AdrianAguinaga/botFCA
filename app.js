@@ -3,7 +3,7 @@ const { createBot, createProvider, createFlow, addKeyword } = require('@bot-what
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
-//flojos secundarios con respuestas
+//flojos secundarios creditos
 const flowSecundarioActividades = addKeyword(['actividades'])
     .addAnswer('Para volver al menú principal, escribe *hola* o *inicio*.')
     .addAnswer([
@@ -39,7 +39,6 @@ const flowSecundarioActividades = addKeyword(['actividades'])
     .addAnswer('Para volver al menú principal, escribe *hola* o *inicio*.')
     .addAnswer([
         "Los créditos optativos varían según la carrera:",
-
         "Inteligencia de negocios: 52 créditos optativos.",
         "Informática: 67 créditos optativos.",
         "Contaduría: 70 créditos optativos.",
